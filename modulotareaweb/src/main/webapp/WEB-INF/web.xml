@@ -5,13 +5,13 @@
          version="6.0">
 
     <servlet>
-        <servlet-name>TareaServlet</servlet-name>
+        <servlet-name>AutenticacionServlet</servlet-name>
         <servlet-class>co.sena.tareas.TareaServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>TareaServlet</servlet-name>
-        <url-pattern>/tareas</url-pattern>
+        <servlet-name>AutenticacionServlet</servlet-name>
+        <url-pattern>/autenticacion</url-pattern>
     </servlet-mapping>
 
     <welcome-file-list>
